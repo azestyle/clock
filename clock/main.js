@@ -30,37 +30,5 @@ function calculate(){
 }
 setInterval(() => {
     calculate()
-}, 500);
-// const[a,b,c]=getTime()
+}, 50);
 
-// function getSecond(){
-// second.style.transform=`rotate(${sdeg}deg)`
-//  sdeg+=6
-//     if(sdeg===360){
-//         sdeg=0
-//     }
-// second.style.transform=`rotate(${sdeg}deg)`
-// }
-
-// function getMinutes(){
-//     minutes.style.transform=`rotate(${mdeg}deg)`
-//     mdeg+=0.1
-//     if(mdeg===360){
-//         mdeg=0
-//     }
-    
-// }
-// function getHours(){
-//     hours.style.transform=`rotate(${hdeg}deg)`
-//     hdeg+=0.00833
-//     if (hdeg===360) {
-//         hdeg=0
-        
-//     }
-    
-// }
-// setInterval(()=>{
-//     getSecond();
-//     getMinutes();
-//     getHours();
-// },1000);
