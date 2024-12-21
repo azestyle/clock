@@ -1,0 +1,68 @@
+.bar-container {
+  position: relative;
+  margin: auto;
+  margin-top: 200px;
+  width: 600px;
+  border-radius: 50%;
+  height: 600px;
+  border: 1px solid black;
+}
+.bar-container .time-3 {
+  position: absolute;
+  font-size: 36px;
+  top: 40.5%;
+  left: 95%;
+}
+.bar-container .time-6 {
+  position: absolute;
+  font-size: 36px;
+  top: 40.5%;
+  right: 95%;
+}
+.bar-container .counter {
+  position: absolute;
+  font-size: 48px;
+  top: -5%;
+  left: 72%;
+}
+
+.second {
+  position: absolute;
+  width: 250px;
+  height: 3px;
+  left: 50%;
+  top: 50%;
+  background-color: black;
+  transform-origin: 0 50%;
+}
+
+.minutes {
+  position: absolute;
+  width: 220px;
+  height: 3px;
+  left: 50%;
+  top: 50%;
+  background-color: rgb(184, 25, 25);
+  transform-origin: 0 50%;
+}
+
+.tester {
+  position: absolute;
+  width: 220px;
+  height: 3px;
+  left: 50%;
+  top: 50%;
+  background-color: rgb(25, 184, 81);
+  transform-origin: 0 50%;
+  transform: rotate(90deg);
+}
+
+.hours {
+  position: absolute;
+  width: 180px;
+  height: 3px;
+  left: 50%;
+  top: 50%;
+  background-color: rgb(184, 25, 139);
+  transform-origin: 0 50%;
+}/*# sourceMappingURL=style.css.map */
